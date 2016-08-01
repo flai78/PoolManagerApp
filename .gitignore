@@ -1,7 +1,8 @@
-.vscode/
+# .vscode/
 npm-debug.log
 
 app/**/*.js
+app/**/*.js.map
 !app/shared/everlive.all.min.js
 hooks/
 lib/
