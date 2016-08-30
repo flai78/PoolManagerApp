@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite default and user settings.
 {
      "files.exclude": {
-        //"**/.git": true,
+        "**/.gitignore": true,
         "**/.svn": true,
         "**/.DS_Store": true,
         "**/*.js": true,
@@ -9,7 +9,8 @@
         "hooks/": true,
         "node_modules/": true,
         "platforms/": true,
-        "**/.npmignore": true
+        "**/.npmignore": true,
+        "lib":true
     }
 
 }

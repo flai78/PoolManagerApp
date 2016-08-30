@@ -4,7 +4,7 @@
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
   "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
+  "repository": "https://github.com/flai78/PoolManagerApp.git",
   "nativescript": {
     "id": "org.nativescript.PoolManagerApp",
     "tns-ios": {
