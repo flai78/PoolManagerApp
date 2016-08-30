@@ -1,4 +1,6 @@
 {
+  "name": "pool_manager_app",
+  "version": "0.0.1",
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
   "readme": "NativeScript Application",
