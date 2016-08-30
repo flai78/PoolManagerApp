@@ -1,26 +1,32 @@
 
 import { Component, OnInit } from '@angular/core';
+import { User } from '../../shared/dto';
+import { TfsService } from '../../services/tfsServices';
 
 @Component({
     selector: 'login',
+    providers: [TfsService],
     templateUrl: 'pages/login/login.component.html',
     styleUrls:["pages/login/login-common.css", "pages/login/login.css"]
 })
 export class LoginComponent implements OnInit {
     
-    public username: String;
-    public password: String;
+    public user: User;
 
-    constructor() {
-     this.username = new String();
-     this.password = new String();
+
+    constructor(private tfsService: TfsService) {
+    
+        this.user = new User();
         
      }
 
     ngOnInit() { }
 
     onTap(){
-        alert(  this.username +" " + this.password);
+
+var data = this.tfsService.getBuilds(this.user);
+        
+        alert(  this.user.username + " " + this.user.password);
     }
 }
 

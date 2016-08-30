@@ -1,7 +1,7 @@
 <StackLayout>
     <Image src="~/images/vsts_logo.png" stretch="aspectFit" horizontalAlignment="center"></Image>
-    <TextField [(ngModel)]="username" hint="Username" keyboardType="next" autocorrect="false" autocapitalizationType="none"></TextField>
-    <TextField [(ngModel)]="password" hint="Password" keyboardType="send" secure="true"></TextField>
+    <TextField [(ngModel)]="user.username" hint="Username" keyboardType="next" autocorrect="false" autocapitalizationType="none"></TextField>
+    <TextField [(ngModel)]="user.password" hint="Password" keyboardType="send" secure="true"></TextField>
     <Button text="Sign in" class="submit-button" (tap)="onTap()"></Button>
 
 

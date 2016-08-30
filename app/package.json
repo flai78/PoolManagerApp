@@ -3,11 +3,11 @@
     "nativescript": {
         "id": "org.nativescript.helloworldng"
     },
-    "name": "tns-template-hello-world-ng",
+    "name": "pool_manager",
     "main": "main.js",
-    "version": "2.1.2",
-    "author": "Telerik <support@telerik.com>",
-    "description": "Nativescript Angular Hello World template",
+    "version": "2.2.2",
+    "author": "flai <flai@gmail.com>",
+    "description": "Visual studio team services",
     "license": "BSD",
     "keywords": [
         "telerik",
